@@ -2,7 +2,7 @@
 
 #### Cocoapods
 ```
-pod 'LCLogger','~>1.3.2'
+pod 'LCLogger','~>1.3.3'
 ```
 
 #### 代码示例

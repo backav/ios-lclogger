@@ -67,6 +67,11 @@ static int open_file(const char* path)
 
 void le_poke()
 {
+    
+    if(le_get_token() == NULL){
+        return;
+    }
+    
     if (!backgroundThread) {
         backgroundThread = [LCBackgroundThread new];
         backgroundThread.name = @"Logentries";
